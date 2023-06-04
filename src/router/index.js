@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import Error404 from '@/views/Error404'
 
 Vue.use(VueRouter)
 
@@ -14,6 +15,11 @@ const routes = [
     path: '/about',
     name: 'about',
     component: HomeView
+  },
+  {                                                                                                                                                                                   
+    path: '/:pathMatch(.*)*',                                                                                                                                                         
+    name: 'error404',                                                                                                                                                                                      
+    component: Error404                                                                                                                                                               
   }
 ]
 
