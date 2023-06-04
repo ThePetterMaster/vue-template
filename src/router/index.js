@@ -2,19 +2,20 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import Error404 from '@/views/Error404'
+import AboutView from '@/views/AboutView'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/home',
+    path: '/',
     name: 'home',
     component: HomeView
   },
   {
     path: '/about',
     name: 'about',
-    component: HomeView
+    component: AboutView
   },
   {                                                                                                                                                                                   
     path: '/:pathMatch(.*)*',                                                                                                                                                         
