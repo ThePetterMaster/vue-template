@@ -79,5 +79,8 @@ export default {
       this.sliding = false;
     },
   },
+  created() {
+    Toast.fire("Bem vindo", "", "success");
+  }
 };
 </script>
