@@ -20,43 +20,39 @@
       caption="Third Slide"
       img-src="https://picsum.photos/1024/300/?image=22"
     ></b-carousel-slide> -->
-    <b-carousel-slide
-    caption="Jogos">
-      
-        <template #img>
-          <img
-            class="d-block img-fluid w-100"
-            width="1024"
-            height="300"
-            :src="require(`@/assets/jogos.jpeg`)"
-            alt="image slot"
-          >
-        </template>
-      </b-carousel-slide>
-      <b-carousel-slide
-      caption="Teologia">
-        <template #img>
-          <img
-            class="d-block img-fluid w-100"
-            width="1024"
-            height="300"
-            :src="require(`@/assets/teologia.jpg`)"
-            alt="image slot"
-          >
-        </template>
-      </b-carousel-slide>
-      <b-carousel-slide
-      caption="Tecnologia">
-        <template #img>
-          <img
-            class="d-block img-fluid w-100"
-            width="1024"
-            height="300"
-            :src="require(`@/assets/tecnologia.jpeg`)"
-            alt="image slot"
-          >
-        </template>
-      </b-carousel-slide>
+    <b-carousel-slide caption="Jogos">
+      <template #img>
+        <img
+          class="d-block img-fluid w-100"
+          width="1024"
+          height="300"
+          :src="require(`@/assets/jogos.jpeg`)"
+          alt="image slot"
+        />
+      </template>
+    </b-carousel-slide>
+    <b-carousel-slide caption="Teologia">
+      <template #img>
+        <img
+          class="d-block img-fluid w-100"
+          width="1024"
+          height="300"
+          :src="require(`@/assets/teologia.jpg`)"
+          alt="image slot"
+        />
+      </template>
+    </b-carousel-slide>
+    <b-carousel-slide caption="Tecnologia">
+      <template #img>
+        <img
+          class="d-block img-fluid w-100"
+          width="1024"
+          height="300"
+          :src="require(`@/assets/tecnologia.jpeg`)"
+          alt="image slot"
+        />
+      </template>
+    </b-carousel-slide>
   </b-carousel>
 </template>
 

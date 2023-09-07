@@ -2,7 +2,7 @@
   <section id="titulo">
     <div class="py-5 px-2">
       <h1 class="text-center texto-cor-especial fonte-titulo">
-        Pedro Alves de Amorim Neto
+       Blog pessoal
       </h1>
       <p class="text-center text-secondary">
         Blog pessoal que trata de assuntos de interesse do desenvolvedor

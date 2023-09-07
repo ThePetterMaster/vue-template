@@ -3,7 +3,6 @@
     <Carrousel />
     <SectionVue />
     <Cards />
-
   </div>
 </template>
 
