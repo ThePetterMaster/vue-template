@@ -2,7 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/home/HomeView.vue'
 import Error404 from '@/views/Error404'
-import AboutView from '@/views/AboutView'
+import AboutView from '@/views/about/AboutView'
 
 Vue.use(VueRouter)
 

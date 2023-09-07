@@ -1,5 +1,6 @@
 <template>
-  <footer class="text-muted">
+  <footer class="text-muted mt-auto">
+    <hr class="featurette-divider" />
     <div class="container mb-3 mt-3">
       <p class="float-right">
         <a href="#">Topo da página</a>

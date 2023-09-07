@@ -3,7 +3,7 @@
     <b-navbar-nav class="p-2">
       <b-button v-b-toggle.sidebar-1><i class="bi bi-list"></i></b-button>
       <b-nav-item href="/">Home</b-nav-item>
-      <b-nav-item href="/about">About</b-nav-item>
+      <b-nav-item href="/about">Quem sou</b-nav-item>
     </b-navbar-nav>
     <b-navbar-nav class="ml-auto">
       <b-dropdown

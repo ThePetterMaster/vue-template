@@ -3,14 +3,13 @@
     <Carrousel />
     <SectionVue />
     <Cards />
-    <hr class="featurette-divider" />
-    <Footer />
+
   </div>
 </template>
 
 <script>
 import Carrousel from "./components/Carrousel.vue";
-import Footer from "./components/Footer.vue";
+import Footer from "@/components/Footer.vue";
 import Cards from "./components/Cards.vue";
 import SectionVue from "./components/Section.vue";
 export default {
