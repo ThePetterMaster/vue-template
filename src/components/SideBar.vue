@@ -4,7 +4,6 @@
       <b-list-group-item>
         <b-avatar
           button
-          @click="onClick"
           icon="controller"
           class="align-center"
         ></b-avatar>
@@ -13,7 +12,7 @@
       <b-list-group-item>
         <b-avatar
           button
-          @click="onClick"
+          @click="redirecionarParaTeologia"
           icon="book"
           class="align-center"
         ></b-avatar>
@@ -42,7 +41,15 @@
 </template>
 
 <script>
-export default {};
+export default {
+  methods: {
+    redirecionarParaTeologia() {
+      if (this.$route.path !== '/teologia') {
+        this.$router.push('/teologia');
+      }
+    },
+  },
+};
 </script>
 
 <style>
