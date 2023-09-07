@@ -3,8 +3,9 @@
     <div class="row">
       <div class="col-sm">
         <b-card
-          title="Card Title"
-          img-src="https://picsum.photos/600/300/?image=25"
+          title="Capítulo 1 CFWM"
+          
+          :img-src="require('@/assets/cfwm.jpg')"
           img-alt="Image"
           img-top
           tag="article"
@@ -12,17 +13,17 @@
           class="mb-2 mr-5"
         >
           <b-card-text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            A Confissão de Westminster foi produzida pela Assembleia de
+            Westminster...
           </b-card-text>
 
-          <b-button href="#" variant="primary">Go somewhere</b-button>
+          <b-button @click="acessarPublicacao" href="#" variant="primary">Acessar publicação</b-button>
         </b-card>
       </div>
       <div class="col-sm">
         <b-card
-          title="Card Title"
-          img-src="https://picsum.photos/600/300/?image=25"
+          title="Capítulo 1 CFWM"
+          :img-src="require('@/assets/cfwm.jpg')"
           img-alt="Image"
           img-top
           tag="article"
@@ -30,35 +31,35 @@
           class="mb-2 mr-5"
         >
           <b-card-text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            A Confissão de Westminster foi produzida pela Assembleia de
+            Westminster...
           </b-card-text>
 
-          <b-button href="#" variant="primary">Go somewhere</b-button>
+          <b-button @click="acessarPublicacao" href="#" variant="primary">Acessar publicação</b-button>
         </b-card>
       </div>
       <div class="col-sm">
         <b-card
-          title="Card Title"
-          img-src="https://picsum.photos/600/300/?image=25"
+          title="Primeiras impressões de starfield"
+          :img-src="require('@/assets/starfield.jpg')"
           img-alt="Image"
           img-top
           tag="article"
           style="max-width: 20rem"
           class="mb-2 mr-5"
         >
+        
           <b-card-text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            Starfield é o primeiro novo universo em mais de 25 anos da Bethesda...
           </b-card-text>
 
-          <b-button href="#" variant="primary">Go somewhere</b-button>
+          <b-button @click="acessarPublicacao" href="#" variant="primary">Acessar publicação</b-button>
         </b-card>
       </div>
       <div class="col-sm">
         <b-card
-          title="Card Title"
-          img-src="https://picsum.photos/600/300/?image=25"
+          title="Capítulo 1 do livro clean code"
+          :img-src="require('@/assets/cleancode.jpg')"
           img-alt="Image"
           img-top
           tag="article"
@@ -66,11 +67,10 @@
           class="mb-2 mr-5"
         >
           <b-card-text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            A técnica Clean Code surgiu em 2008...
           </b-card-text>
 
-          <b-button href="#" variant="primary">Go somewhere</b-button>
+          <b-button href="#" @click="acessarPublicacao" variant="primary">Acessar publicação</b-button>
         </b-card>
       </div>
     </div>
@@ -78,8 +78,19 @@
 </template>
 
 <script>
-export default {};
+export default {
+  methods:{
+    acessarPublicacao() {
+    Toast.fire("Publicação indisponível no momento", "", "error");
+  },
+  }
+};
 </script>
 
 <style>
+.card-img-top {
+    width: 100%;
+    height: 10vw;
+    object-fit: cover;
+}
 </style>

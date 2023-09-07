@@ -5,6 +5,7 @@
     </h1>
 
     <b-card
+    @click="acessarPublicacao"
       @mouseover="increaseCardSize"
       @mouseleave="resetCardSize"
       class="mt-2 custom-card pe-auto"
@@ -43,6 +44,7 @@
     </b-card>
 
     <b-card
+    @click="acessarPublicacao"
       @mouseover="increaseCard2Size"
       @mouseleave="resetCard2Size"
       class="mt-2 custom-card pe-auto"
@@ -100,6 +102,9 @@ export default {
       this.$refs.card2.style.transform = "scale(1)";
       this.$refs.card2.style.boxShadow = "0 2px 4px rgba(0, 0, 0, 0.1)";
     },
+    acessarPublicacao() {
+    Toast.fire("Publicação indisponível no momento", "", "error");
+  },
   },
 };
 </script>
