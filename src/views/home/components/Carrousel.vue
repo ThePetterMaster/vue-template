@@ -20,7 +20,7 @@
       caption="Third Slide"
       img-src="https://picsum.photos/1024/300/?image=22"
     ></b-carousel-slide> -->
-    <b-carousel-slide caption="Jogos">
+    <b-carousel-slide  text="Dou minha opinião sobre jogos, partidas, builds etc." caption="Jogos">
       <template #img>
         <img
           class="d-block img-fluid w-100"
@@ -31,7 +31,7 @@
         />
       </template>
     </b-carousel-slide>
-    <b-carousel-slide caption="Teologia">
+    <b-carousel-slide text="Comento livros, profissões de fé, capítulos biblicos etc." caption="Teologia">
       <template #img>
         <img
           class="d-block img-fluid w-100"
@@ -42,7 +42,7 @@
         />
       </template>
     </b-carousel-slide>
-    <b-carousel-slide caption="Tecnologia">
+    <b-carousel-slide text="Desenvolvo tutoriais e comentários de alguma tecnologia de meu interesse." caption="Tecnologia">
       <template #img>
         <img
           class="d-block img-fluid w-100"
