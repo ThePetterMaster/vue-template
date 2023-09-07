@@ -1,17 +1,35 @@
 <template>
   <footer class="text-muted">
-    <div class="container">
+    <div class="container mb-3 mt-3">
       <p class="float-right">
-        <a href="#">Back to top</a>
+        <a href="#">Topo da página</a>
       </p>
-      <p>
+      
+  <b-row>
+    <b-col cols="4"> <b-row>Redes sociais</b-row>
+    <b-row>
+      <i class="bi bi-instagram mr-2"></i> <i class="bi bi-linkedin mr-2"></i> <i class="bi bi-github"></i>
+    </b-row>
+ 
+    </b-col>
+    <b-col cols="4"><b-row>Contatos </b-row>
+      <b-row>
+        <i class="bi bi-whatsapp mr-2"></i> <p>(098)99122-8330</p>
+    </b-row>
+    <b-row>
+      <i class="bi bi-envelope mr-2"></i><p>pedroneeto@hotmail.com</p>
+    </b-row>
+    </b-col>
+  </b-row>
+
+      <!-- <p>
         Album example is © Bootstrap, but please download and customize it for
         yourself!
       </p>
       <p>
         New to Bootstrap? <a href="">Visit the homepage</a> or read our
         <a href="">getting started guide</a>.
-      </p>
+      </p> -->
     </div>
   </footer>
 </template>

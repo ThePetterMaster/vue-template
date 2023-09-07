@@ -2,10 +2,10 @@
   <section id="titulo">
     <div class="py-5 px-2">
       <h1 class="text-center texto-cor-especial fonte-titulo">
-        Site que serve como base
+        Pedro Alves de Amorim Neto
       </h1>
       <p class="text-center text-secondary">
-        Esse site serve como base para o desenvolvimento de outros
+        Blog pessoal que trata de assuntos de interesse do desenvolvedor
       </p>
     </div>
   </section>
