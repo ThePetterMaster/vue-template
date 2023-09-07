@@ -5,7 +5,7 @@
     </h1>
 
     <b-card
-    @click="acessarPublicacao"
+      @click="acessarPublicacao"
       @mouseover="increaseCardSize"
       @mouseleave="resetCardSize"
       class="mt-2 custom-card pe-auto"
@@ -33,7 +33,7 @@
         >
         <b-col cols="4"
           ><b-img
-          :src="require('@/assets/cfwm.jpg')"
+            :src="require('@/assets/cfwm.jpg')"
             fluid
             alt="Fluid image"
           ></b-img
@@ -44,7 +44,7 @@
     </b-card>
 
     <b-card
-    @click="acessarPublicacao"
+      @click="acessarPublicacao"
       @mouseover="increaseCard2Size"
       @mouseleave="resetCard2Size"
       class="mt-2 custom-card pe-auto"
@@ -72,7 +72,7 @@
         >
         <b-col cols="4"
           ><b-img
-          :src="require('@/assets/cfwm.jpg')"
+            :src="require('@/assets/cfwm.jpg')"
             fluid
             alt="Fluid image"
           ></b-img
@@ -80,7 +80,7 @@
       </b-row>
       <b-badge variant="secondary">Teologia reformada</b-badge></b-card
     >
-    </b-card>
+  </b-card>
 </template>
 
 <script>
@@ -103,8 +103,8 @@ export default {
       this.$refs.card2.style.boxShadow = "0 2px 4px rgba(0, 0, 0, 0.1)";
     },
     acessarPublicacao() {
-    Toast.fire("Publicação indisponível no momento", "", "error");
-  },
+      Toast.fire("Publicação indisponível no momento", "", "error");
+    },
   },
 };
 </script>

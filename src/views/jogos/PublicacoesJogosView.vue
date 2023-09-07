@@ -15,15 +15,19 @@
       <b-row>
         <b-col cols="8">
           <p>
-            Starfield é o primeiro novo universo em mais de 25 anos da Bethesda Game Studios, os criadores premiados de The Elder Scrolls V: Skyrim e Fallout 4. Crie qualquer personagem que quiser e explorar com liberdade inigualável ao embarcar em uma jornada épica para responder ao maior mistério da humanidade.
+            Starfield é o primeiro novo universo em mais de 25 anos da Bethesda
+            Game Studios, os criadores premiados de The Elder Scrolls V: Skyrim
+            e Fallout 4. Crie qualquer personagem que quiser e explorar com
+            liberdade inigualável ao embarcar em uma jornada épica para
+            responder ao maior mistério da humanidade.
           </p></b-col
         >
         <b-col cols="4"
           ><b-img
-          :src="require('@/assets/starfield.jpg')"
+            :src="require('@/assets/starfield.jpg')"
             fluid
             alt="Fluid image"
-            style="width: 200px;"
+            style="width: 200px"
           ></b-img
         ></b-col>
       </b-row>
@@ -53,10 +57,9 @@ export default {
       this.$refs.card2.style.boxShadow = "0 2px 4px rgba(0, 0, 0, 0.1)";
     },
     acessarPublicacao() {
-    Toast.fire("Publicação indisponível no momento", "", "error");
+      Toast.fire("Publicação indisponível no momento", "", "error");
+    },
   },
-  },
-  
 };
 </script>
 

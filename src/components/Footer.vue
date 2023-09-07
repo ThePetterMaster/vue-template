@@ -5,23 +5,27 @@
       <p class="float-right">
         <a href="#">Topo da página</a>
       </p>
-      
-  <b-row>
-    <b-col cols="4"> <b-row>Redes sociais</b-row>
-    <b-row>
-      <i class="bi bi-instagram mr-2"></i> <i class="bi bi-linkedin mr-2"></i> <i class="bi bi-github"></i>
-    </b-row>
- 
-    </b-col>
-    <b-col cols="4"><b-row>Contatos </b-row>
+
       <b-row>
-        <i class="bi bi-whatsapp mr-2"></i> <p>(98) 99122-8330</p>
-    </b-row>
-    <b-row>
-      <i class="bi bi-envelope mr-2"></i><p>pedroneeto@hotmail.com</p>
-    </b-row>
-    </b-col>
-  </b-row>
+        <b-col cols="4">
+          <b-row>Redes sociais</b-row>
+          <b-row>
+            <i class="bi bi-instagram mr-2"></i>
+            <i class="bi bi-linkedin mr-2"></i> <i class="bi bi-github"></i>
+          </b-row>
+        </b-col>
+        <b-col cols="4"
+          ><b-row>Contatos </b-row>
+          <b-row>
+            <i class="bi bi-whatsapp mr-2"></i>
+            <p>(98) 99122-8330</p>
+          </b-row>
+          <b-row>
+            <i class="bi bi-envelope mr-2"></i>
+            <p>pedroneeto@hotmail.com</p>
+          </b-row>
+        </b-col>
+      </b-row>
 
       <!-- <p>
         Album example is © Bootstrap, but please download and customize it for

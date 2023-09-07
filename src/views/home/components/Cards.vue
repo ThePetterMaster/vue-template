@@ -10,7 +10,7 @@
           img-top
           tag="article"
           style="max-width: 20rem"
-          class="mb-2 mr-5"
+          class="mb-2 mr-5 w-100"
         >
           <b-card-text>
             A Confissão de Westminster foi produzida pela Assembleia de
@@ -28,7 +28,7 @@
           img-top
           tag="article"
           style="max-width: 20rem"
-          class="mb-2 mr-5"
+          class="mb-2 mr-5 w-100"
         >
           <b-card-text>
             A Confissão de Westminster foi produzida pela Assembleia de
@@ -46,7 +46,7 @@
           img-top
           tag="article"
           style="max-width: 20rem"
-          class="mb-2 mr-5"
+          class="mb-2 mr-5 w-100"
         >
         
           <b-card-text>
@@ -64,7 +64,7 @@
           img-top
           tag="article"
           style="max-width: 20rem"
-          class="mb-2 mr-5"
+          class="mb-2 mr-5 w-100"
         >
           <b-card-text>
             A técnica Clean Code surgiu em 2008...
