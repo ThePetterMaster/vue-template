@@ -4,7 +4,6 @@
       <div class="col-sm">
         <b-card
           title="Capítulo 1 CFWM"
-          
           :img-src="require('@/assets/cfwm.jpg')"
           img-alt="Image"
           img-top
@@ -13,16 +12,21 @@
           class="mb-2 mr-5 w-100"
         >
           <b-card-text>
-            A Confissão de Westminster foi produzida pela Assembleia de
-            Westminster...
+            O capítulo 1 da confissão de fé de Westminster fala sobre a
+            escritura sagrada. Logo de início...
           </b-card-text>
 
-          <b-button @click="acessarPublicacao" href="#" variant="primary">Acessar publicação</b-button>
+          <b-button
+            @click="redirecionarParaPublicacaoTeologia"
+            href="#"
+            variant="primary"
+            >Acessar publicação</b-button
+          >
         </b-card>
       </div>
       <div class="col-sm">
         <b-card
-          title="Capítulo 1 CFWM"
+          title="Capítulo 2 CFWM"
           :img-src="require('@/assets/cfwm.jpg')"
           img-alt="Image"
           img-top
@@ -35,7 +39,9 @@
             Westminster...
           </b-card-text>
 
-          <b-button @click="acessarPublicacao" href="#" variant="primary">Acessar publicação</b-button>
+          <b-button @click="acessarPublicacao" href="#" variant="primary"
+            >Acessar publicação</b-button
+          >
         </b-card>
       </div>
       <div class="col-sm">
@@ -48,12 +54,14 @@
           style="max-width: 20rem"
           class="mb-2 mr-5 w-100"
         >
-        
           <b-card-text>
-            Starfield é o primeiro novo universo em mais de 25 anos da Bethesda...
+            Starfield é o primeiro novo universo em mais de 25 anos da
+            Bethesda...
           </b-card-text>
 
-          <b-button @click="acessarPublicacao" href="#" variant="primary">Acessar publicação</b-button>
+          <b-button @click="acessarPublicacao" href="#" variant="primary"
+            >Acessar publicação</b-button
+          >
         </b-card>
       </div>
       <div class="col-sm">
@@ -66,11 +74,11 @@
           style="max-width: 20rem"
           class="mb-2 mr-5 w-100"
         >
-          <b-card-text>
-            A técnica Clean Code surgiu em 2008...
-          </b-card-text>
+          <b-card-text> A técnica Clean Code surgiu em 2008... </b-card-text>
 
-          <b-button href="#" @click="acessarPublicacao" variant="primary">Acessar publicação</b-button>
+          <b-button href="#" @click="acessarPublicacao" variant="primary"
+            >Acessar publicação</b-button
+          >
         </b-card>
       </div>
     </div>
@@ -79,18 +87,21 @@
 
 <script>
 export default {
-  methods:{
+  methods: {
+    redirecionarParaPublicacaoTeologia() {
+      this.$router.push("/publicacao");
+    },
     acessarPublicacao() {
-    Toast.fire("Publicação indisponível no momento", "", "error");
+      Toast.fire("Publicação indisponível no momento", "", "error");
+    },
   },
-  }
 };
 </script>
 
 <style>
 .card-img-top {
-    width: 100%;
-    height: 150px;
-    object-fit: cover;
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
 }
 </style>

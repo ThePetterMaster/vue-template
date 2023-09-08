@@ -6,6 +6,7 @@ import AboutView from '@/views/about/AboutView'
 import PublicacoesTeologiaView from '@/views/teologia/PublicacoesTeologiaView'
 import PublicacoesTecnologiaView from '@/views/tecnologia/PublicacoesTecnologiaView'
 import PublicacoesJogosView from '@/views/jogos/PublicacoesJogosView'
+import Publicacao from '@/views/teologia/Publicacao'
 
 
 Vue.use(VueRouter)
@@ -25,6 +26,11 @@ const routes = [
     path: '/teologia',
     name: 'teologia',
     component: PublicacoesTeologiaView
+  },
+  {
+    path: '/publicacao',
+    name: 'publicacao',
+    component: Publicacao
   },
   {
     path: '/tecnologia',

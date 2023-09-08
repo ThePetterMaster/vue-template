@@ -8,29 +8,18 @@
     img-width="1024"
     img-height="480"
   >
-    <!-- <b-carousel-slide
-      caption="First Slide"
-      img-src="https://picsum.photos/1024/300/?image=10"
-    ></b-carousel-slide>
-    <b-carousel-slide
-      caption="Second Slide"
-      img-src="https://picsum.photos/1024/300/?image=12"
-    ></b-carousel-slide>
-    <b-carousel-slide
-      caption="Third Slide"
-      img-src="https://picsum.photos/1024/300/?image=22"
-    ></b-carousel-slide> -->
-    <b-carousel-slide  text="Dou minha opinião sobre jogos, partidas, builds etc." caption="Jogos">
+  <b-carousel-slide text="Desenvolvo tutoriais e comentários de alguma tecnologia de meu interesse." caption="Tecnologia">
       <template #img>
         <img
           class="d-block img-fluid w-100"
           width="1024"
           height="300"
-          :src="require(`@/assets/jogos.jpeg`)"
+          :src="require(`@/assets/tecnologia.jpeg`)"
           alt="image slot"
         />
       </template>
     </b-carousel-slide>
+
     <b-carousel-slide text="Comento livros, profissões de fé, capítulos biblicos etc." caption="Teologia">
       <template #img>
         <img
@@ -42,17 +31,18 @@
         />
       </template>
     </b-carousel-slide>
-    <b-carousel-slide text="Desenvolvo tutoriais e comentários de alguma tecnologia de meu interesse." caption="Tecnologia">
+    <b-carousel-slide  text="Dou minha opinião sobre jogos, partidas, builds etc." caption="Jogos">
       <template #img>
         <img
           class="d-block img-fluid w-100"
           width="1024"
           height="300"
-          :src="require(`@/assets/tecnologia.jpeg`)"
+          :src="require(`@/assets/jogos.jpeg`)"
           alt="image slot"
         />
       </template>
     </b-carousel-slide>
+
   </b-carousel>
 </template>
 
