@@ -9,7 +9,7 @@
     </b-row>
 
     <b-col cols="12" class="d-flex justify-content-center">
-      <b-col cols="6">
+      <b-col cols="7" col-sm>
         <b-row align-h="center">
           <p >
             O capítulo 1 da confissão de fé de Westminster fala sobre a
