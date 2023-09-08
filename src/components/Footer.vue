@@ -17,10 +17,6 @@
         <b-col cols="4"
           ><b-row>Contatos </b-row>
           <b-row>
-            <i class="bi bi-whatsapp mr-2"></i>
-            <p>(98) 99122-8330</p>
-          </b-row>
-          <b-row>
             <i class="bi bi-envelope mr-2"></i>
             <p>pedroneeto@hotmail.com</p>
           </b-row>
