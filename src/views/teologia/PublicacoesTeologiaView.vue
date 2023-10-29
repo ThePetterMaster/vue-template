@@ -16,19 +16,17 @@
       <b-row>
         <b-col cols="8">
           <p>
-            A Confissão de Westminster foi produzida pela Assembleia de
-            Westminster, convocada pelo Parlamento inglês em 1643, durante a
-            Guerra Civil Inglesa. A Assembleia de Westminster (1643-1649)
-            constituiu o ponto culminante da elaboração confessional reformada.
-            Os documentos teológicos que dela resultaram, a Confissão de Fé e os
-            Catecismos Maior e Breve, tornaram-se os padrões doutrinários mais
-            aceitos pelos reformados ao redor do mundo. A famosa assembléia foi
-            uma das principais contribuições dos puritanos, os calvinistas
-            ingleses. Há quase um século eles vinham lutando sem sucesso por uma
-            reforma profunda na Igreja da Inglaterra (Anglicana). Na década de
-            1640, os puritanos ganharam o controle do Parlamento inglês e
-            entraram em guerra contra o rei Carlos I, que queria manter o
-            sistema episcopal.
+            O capítulo 1 da confissão de fé de Westminster fala sobre a
+            escritura sagrada. Logo de início, é dito que Deus já se manifesta
+            sem que seja preciso ter conhecimento da bíblia, em romanos 1.20 é
+            dito que o poder de Deus e sua divindade são percebidos a partir de
+            todas as coisas criadas, além disso em salmos 19.1 está escrito que
+            ¹ Os céus proclamam a glória de Deus, e o firmamento anuncia as
+            obras das suas mãos, sendo isso conhecido como "revelação
+            natural".Entretanto o conhecimento da mesma é indispensável para
+            conhecer a Deus de forma suficiente. É possível perceber isso em
+            romanos 10.13-14 onde é questionado como as pessoas serão salvas sem
+            que tomem conhecimento da palavra.
           </p></b-col
         >
         <b-col cols="4"
@@ -55,17 +53,19 @@
       <b-row>
         <b-col cols="8">
           <p>
-            O capítulo 1 da confissão de fé de Westminster fala sobre a
-            escritura sagrada. Logo de início, é dito que Deus já se manifesta
-            sem que seja preciso ter conhecimento da bíblia, em romanos 1.20 é
-            dito que o poder de Deus e sua divindade são percebidos a partir de
-            todas as coisas criadas, além disso em salmos 19.1 está escrito que
-            ¹ Os céus proclamam a glória de Deus, e o firmamento anuncia as
-            obras das suas mãos, sendo isso conhecido como "revelação
-            natural".Entretanto o conhecimento da mesma é indispensável para
-            conhecer a Deus de forma suficiente. É possível perceber isso em
-            romanos 10.13-14 onde é questionado como as pessoas serão salvas sem
-            que tomem conhecimento da palavra.
+            A Confissão de Westminster foi produzida pela Assembleia de
+            Westminster, convocada pelo Parlamento inglês em 1643, durante a
+            Guerra Civil Inglesa. A Assembleia de Westminster (1643-1649)
+            constituiu o ponto culminante da elaboração confessional reformada.
+            Os documentos teológicos que dela resultaram, a Confissão de Fé e os
+            Catecismos Maior e Breve, tornaram-se os padrões doutrinários mais
+            aceitos pelos reformados ao redor do mundo. A famosa assembléia foi
+            uma das principais contribuições dos puritanos, os calvinistas
+            ingleses. Há quase um século eles vinham lutando sem sucesso por uma
+            reforma profunda na Igreja da Inglaterra (Anglicana). Na década de
+            1640, os puritanos ganharam o controle do Parlamento inglês e
+            entraram em guerra contra o rei Carlos I, que queria manter o
+            sistema episcopal.
           </p></b-col
         >
         <b-col cols="4"
@@ -85,7 +85,7 @@
 export default {
   methods: {
     redirecionarParaPublicacaoTeologia() {
-      this.$router.push("/publicacao");
+      this.$router.push("/publicacao/teologia/1");
     },
     increaseCardSize() {
       this.$refs.card.style.transform = "scale(1.008)";
