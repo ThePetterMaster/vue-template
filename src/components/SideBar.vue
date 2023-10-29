@@ -1,28 +1,25 @@
 <template>
   <b-sidebar id="sidebar-1" title="Menu principal" shadow>
     <b-list-group>
-      <b-list-group-item>
+      <b-list-group-item href="#" @click="redirecionarParaJogos">
         <b-avatar
           button
           icon="controller"
           class="align-center"
-          @click="redirecionarParaJogos"
         ></b-avatar>
         Jogos
       </b-list-group-item>
-      <b-list-group-item>
+      <b-list-group-item href="#" @click="redirecionarParaTeologia">
         <b-avatar
           button
-          @click="redirecionarParaTeologia"
           icon="book"
           class="align-center"
         ></b-avatar>
         Teologia
       </b-list-group-item>
-      <b-list-group-item>
+      <b-list-group-item href="#" @click="redirecionarParaTecnologia"> 
         <b-avatar
           button
-          @click="redirecionarParaTecnologia"
           icon="laptop"
           class="align-center"
         ></b-avatar>
