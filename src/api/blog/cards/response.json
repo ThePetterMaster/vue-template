@@ -1,0 +1,30 @@
+[
+    {   
+        "id":1,
+        "titulo": "Capítulo 1 CFWM",
+        "categoria":"teologia",
+        "resumo":"O capítulo 1 da confissão de fé de Westminster fala sobre a escritura sagrada. Logo de início...",
+        "foto":"data:image/jpeg;base64,/9j/4gIcSUNDX1BST0ZJTEUAAQEAAAIMbGNtcwIQAABtbnRyUkdCIFhZWiAH3AABABkAAwApADlhY3NwQVBQTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9tYAAQAAAADTLWxjbXMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAApkZXNjAAAA"
+    },
+    {
+        "id":2,
+        "titulo": "Capítulo 2 CFWM",
+        "categoria":"teologia",
+        "resumo":"A Confissão de Westminster foi produzida pela Assembleia de Westminster... ",
+        "foto":"data:image/jpeg;base64,/9j/4gIcSUNDX1BST0ZJTEUAAQEAAAIMbGNtcwIQAABtbnRyUkdCIFhZWiAH3AABABkAAwApADlhY3NwQVBQTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9tYAAQAAAADTLWxjbXMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAApkZXNjAAAA"
+    },
+    {   
+        "id":1,
+        "titulo": "Capítulo 1 do livro clean code",
+        "categoria":"teologia",
+        "resumo":"A técnica Clean Code surgiu em 2008... ",
+        "foto":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUWFRgVFRYYGBgYGhoYGBoaGhwaHBgaGBgZGhgaHBocIS4lHCErIRgYJjgnKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QHhISHjQrJCM0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NP"
+    },
+    {   
+        "id":1,
+        "titulo": "Primeiras impressões de starfield",
+        "categoria":"jogos",
+        "resumo":"Starfield é o primeiro novo universo em mais de 25 anos da Bethesda... ",
+        "foto":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gIcSUNDX1BST0ZJTEUAAQEAAAIMbGNtcwIQAABtbnRyUkdCIFhZWiAH3AABABkAAwApADlhY3NwQVBQTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9tYAAQAAAADTLWxjbXMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAApkZXNjAAAA"
+    }
+]

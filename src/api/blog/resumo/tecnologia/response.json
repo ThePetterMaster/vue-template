@@ -1,0 +1,11 @@
+[
+    {   
+        "id":1,
+        "titulo": "Capítulo 1 do livro clean code",
+        "tag":"Padrões de codificação",
+        "data":"Jul 15",
+        "resumo":"A técnica Clean Code surgiu em 2008, quando Robert Cecil Martins lançou o livro Clean Code: A Handbook of Agile Software Craftsmanship, que é referência no assunto. O autor, aliás, está entre as 17 pessoas que assinaram o Manifesto Ágil, que é a base para diversas metodologias ágeis, como o SCRUM e FDD — Feature-Driven Development. ",
+        "foto":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUWFRgVFRYYGBgYGhoYGBoaGhwaHBgaGBgZGhgaHBocIS4lHCErIRgYJjgnKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QHhISHjQrJCM0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NP"
+    }
+
+]
