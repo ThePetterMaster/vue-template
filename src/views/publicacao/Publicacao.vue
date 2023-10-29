@@ -12,6 +12,7 @@
       </div>
     </div>
     <div v-else>
+      <p>{{ $route.params.numero }}</p>
       <b-row class="mb-3" align-h="center">
         <h1>{{ json.titulo }}</h1>
       </b-row>
@@ -33,12 +34,7 @@
 
   </div>
 </template>
-
 <script>
-
-let resposta
-
-
 export default {
   data() {
     return {
@@ -47,16 +43,24 @@ export default {
       publicacaoNaoEncontrada: false
     }
   },
+  computed:{
+    idPublicacao(){
+      return this.$route.params.id;
+    },
+    categoriaPublicacao(){
+      return this.$route.params.categoria;
+    }
+  },
 
   mounted() {
-    import(`../../api/blog/publicacao/teologia/${this.numero}/response.json`)
+    import(`../../api/blog/publicacao/${this.categoriaPublicacao}/${this.idPublicacao}/response.json`)
       .then((jsonData) => {
         this.json = jsonData.default;
       })
       .catch((error) => {
+        Toast.fire("Publicação indisponível no momento", "", "error");
         this.publicacaoNaoEncontrada = true
       });
-
 
   },
 };
