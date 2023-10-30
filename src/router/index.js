@@ -3,10 +3,9 @@ import VueRouter from 'vue-router'
 import HomeView from '../views/home/HomeView.vue'
 import Error404 from '@/views/Error404'
 import AboutView from '@/views/about/AboutView'
-import PublicacoesTeologiaView from '@/views/teologia/PublicacoesTeologiaView'
-import PublicacoesTecnologiaView from '@/views/tecnologia/PublicacoesTecnologiaView'
-import PublicacoesJogosView from '@/views/jogos/PublicacoesJogosView'
 import Publicacao from '@/views/publicacao/Publicacao'
+import ResumoPublicacao from '@/views/resumoPublicacoes/ResumoPublicacoesView'
+
 
 
 Vue.use(VueRouter)
@@ -23,29 +22,14 @@ const routes = [
     component: AboutView
   },
   {
-    path: '/teologia',
-    name: 'teologia',
-    component: PublicacoesTeologiaView
-  },
-  {
     path: '/publicacao/:categoria/:id',
     name: 'publicacao',
     component: Publicacao
   },
   {
-    path: '/tecnologia',
-    name: 'tecnologia',
-    component: PublicacoesTecnologiaView
-  },
-  {
-    path: '/teologia',
-    name: 'teologia',
-    component: PublicacoesTeologiaView
-  },
-  {
-    path: '/jogos',
-    name: 'jogos',
-    component: PublicacoesJogosView
+    path: '/resumos/:categoria',
+    name: 'resumos',
+    component: ResumoPublicacao
   },
   {                                                                                                                                                                                   
     path: '/:pathMatch(.*)*',                                                                                                                                                         

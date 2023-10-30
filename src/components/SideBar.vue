@@ -25,15 +25,6 @@
         ></b-avatar>
         Tecnologia
       </b-list-group-item>
-      <!-- <b-list-group-item>
-        <b-avatar
-          button
-          @click="onClick"
-          icon="github"
-          class="align-center"
-        ></b-avatar>
-        Respositórios no github
-      </b-list-group-item> -->
     </b-list-group>
   </b-sidebar>
 </template>
@@ -42,18 +33,21 @@
 export default {
   methods: {
     redirecionarParaTeologia() {
-      if (this.$route.path !== '/teologia') {
-        this.$router.push('/teologia');
+      if (this.$route.path !== '/resumos/teologia') {
+        this.$router.push('/resumos/teologia');
+        setTimeout( location.reload(), 500); 
       }
     },
     redirecionarParaJogos() {
-      if (this.$route.path !== '/jogos') {
-        this.$router.push('/jogos');
+      if (this.$route.path !== '/resumos/jogos') {
+        this.$router.push('/resumos/jogos');
+        setTimeout( location.reload(), 500); 
       }
     },
     redirecionarParaTecnologia() {
-      if (this.$route.path !== '/tecnologia') {
-        this.$router.push('/tecnologia');
+      if (this.$route.path !== '/resumos/tecnologia') {
+        this.$router.push('/resumos/tecnologia');
+        setTimeout( location.reload(), 500); 
       }
     },
   },
