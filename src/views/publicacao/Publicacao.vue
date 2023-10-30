@@ -18,18 +18,18 @@
       </b-row>
 
       <b-row class="mb-3" align-h="center">
-        <img width="50%" :src="json.foto" />
+        <img class="col-xs-12 col-md-6 m-4" :src="json.foto" />
       </b-row>
 
-      <b-col cols="12" class="d-flex justify-content-center">
-        <b-col cols="7" col-sm>
+      <div class="d-flex justify-content-center ">
+        <div class="col-xs-12 col-md-7 ">
           <b-row  align-h="center">
-            <p v-for="paragrafo in json.paragrafos">
+            <p v-for="paragrafo in json.paragrafos" class="ml-4 mr-4 mb-4">
               {{ paragrafo }}
             </p>
           </b-row>
-        </b-col>
-      </b-col>
+        </div>
+      </div>
     </div>
 
   </div>
