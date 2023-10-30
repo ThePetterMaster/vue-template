@@ -7,14 +7,13 @@
             ref="card">
             <p class="text-muted">{{ resumo.data }}</p>
             <b-row>
-                <b-col cols="8">
+                <div class="col-md-8">
                     <h1>{{ resumo.titulo }}</h1>
                     <p>
                         {{ resumo.resumo }}
                     </p>
-                </b-col>
-
-                <b-col cols="4"><b-img style="width: 400px" fluid  :src="resumo.foto"></b-img></b-col>
+                </div>
+                <div class="col-md-4"><b-img style="width: 400px" fluid  :src="resumo.foto"></b-img></div>
             </b-row>
             <b-badge variant="secondary">{{ resumo.tag }}</b-badge>
         </b-card>
