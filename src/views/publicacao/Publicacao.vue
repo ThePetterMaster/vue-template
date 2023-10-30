@@ -23,7 +23,7 @@
 
       <b-col cols="12" class="d-flex justify-content-center">
         <b-col cols="7" col-sm>
-          <b-row align-h="center">
+          <b-row  align-h="center">
             <p v-for="paragrafo in json.paragrafos">
               {{ paragrafo }}
             </p>
@@ -58,7 +58,7 @@ export default {
         this.json = jsonData.default;
       })
       .catch((error) => {
-        Toast.fire("Publicação indisponível no momento", "", "error");
+        
         this.publicacaoNaoEncontrada = true
       });
 
