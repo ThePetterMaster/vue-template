@@ -57,7 +57,7 @@ export default {
 };
 </script>
   
-<style>
+<style scoped>
 .custom-card {
     cursor: pointer;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -71,5 +71,8 @@ export default {
 .custom-card:hover {
     transform: scale(1.01);
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+img {
+  border-radius: 5px;
 }
 </style>

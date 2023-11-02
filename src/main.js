@@ -4,6 +4,7 @@ import router from './router'
 import store from './store'
 import Swal from "sweetalert2/dist/sweetalert2.js";
 import "sweetalert2/dist/sweetalert2.min.css";
+import './assets/css/global.css';
 
 import { BootstrapVue,IconsPlugin } from 'bootstrap-vue'
 

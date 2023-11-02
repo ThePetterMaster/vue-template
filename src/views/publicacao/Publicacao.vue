@@ -13,16 +13,16 @@
     </div>
     <div v-else>
       <p>{{ $route.params.numero }}</p>
-      <b-row class="mb-3" align-h="center">
+      <b-row  align-h="center">
         <h1>{{ json.titulo }}</h1>
       </b-row>
 
       <b-row class="mb-3" align-h="center">
-        <img class="col-xs-12 col-md-6 m-4" :src="json.foto" />
+        <img class="col-xs-12 col-md-6 m-2" :src="json.foto" />
       </b-row>
 
       <div class="d-flex justify-content-center ">
-        <div class="col-xs-12 col-md-7 ">
+        <div class="col-xs-12 col-md-6 ">
           <b-row  align-h="center">
             <p v-for="paragrafo in json.paragrafos" class="ml-4 mr-4 mb-4">
               {{ paragrafo }}
@@ -68,7 +68,7 @@ export default {
 
 <style scoped>
 img {
-  border-radius: 50%;
+  border-radius: 3%;
 }
 
 #notfound {
