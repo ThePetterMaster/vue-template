@@ -10,14 +10,15 @@
         <b-col cols="4">
           <b-row>Redes sociais</b-row>
           <b-row>
-            <i class="bi bi-instagram mr-2"></i>
-            <i class="bi bi-linkedin mr-2"></i> <i class="bi bi-github"></i>
+
+            <b-avatar button variant="light" icon="instagram" size="sm"></b-avatar>
+            <b-avatar button variant="light" icon="linkedin" size="sm"></b-avatar>
+            <b-avatar button variant="light" icon="github" size="sm"></b-avatar>
           </b-row>
         </b-col>
-        <b-col cols="4"
-          ><b-row>Contatos </b-row>
+        <b-col cols="4"><b-row>Contatos </b-row>
           <b-row>
-            <i class="bi bi-envelope mr-2"></i>
+            <b-avatar button variant="light" icon="envelope" size="sm"></b-avatar>
             <p>pedroneeto@hotmail.com</p>
           </b-row>
         </b-col>
@@ -39,5 +40,4 @@
 export default {};
 </script>
 
-<style>
-</style>
+<style></style>
