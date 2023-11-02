@@ -68,9 +68,12 @@ export default {
 
 <style scoped>
 img {
-  border-radius: 3%;
+  border-radius: 50%;
 }
-
+p {
+  text-indent: 50px;
+  letter-spacing: 3px;
+}
 #notfound {
   position: relative;
   height: 100vh;
