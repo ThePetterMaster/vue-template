@@ -8,7 +8,7 @@
             <p class="text-muted">{{ resumo.data }}</p>
             <b-row>
                 <div class="col-md-8">
-                    <h1>{{ resumo.titulo }}</h1>
+                    <h2>{{ resumo.titulo }}</h2>
                     <p>
                         {{ resumo.resumo }}
                     </p>
