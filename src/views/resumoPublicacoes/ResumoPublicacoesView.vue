@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1 class="text-center texto-cor-especial fonte-titulo mt-5">
+        <h1 class="resumos-title text-center texto-cor-especial fonte-titulo mt-5">
             Publicações sobre {{categoriaPublicacao}}
         </h1>
         <b-card v-for="resumo in resumos" @click="redirecionarParaPublicacao(resumo)" class="mt-5 ml-5 mr-5 custom-card pe-auto"

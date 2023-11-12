@@ -14,7 +14,7 @@
     <div v-else>
       <p>{{ $route.params.numero }}</p>
       <b-row  align-h="center">
-        <h1>{{ json.titulo }}</h1>
+        <h1 class="post-title">{{ json.titulo }}</h1>
       </b-row>
 
       <b-row class="mb-3" align-h="center">
