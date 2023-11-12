@@ -16,15 +16,21 @@
         <template #button-content>
           <i class="bi bi-person-fill"></i>
         </template>
-        <b-dropdown-item href="#">Meu perfil</b-dropdown-item>
-        <b-dropdown-item href="#">Sair</b-dropdown-item>
+        <b-dropdown-item @click="redirecionar" href="#">Meu perfil</b-dropdown-item>
+        <b-dropdown-item @click="redirecionar" href="#">Sair</b-dropdown-item>
       </b-dropdown>
     </b-navbar-nav>
   </b-navbar>
 </template>
 
 <script>
-export default {};
+export default {
+  methods:{
+    redirecionar() {
+      Toast.fire("Recurso indisponível no momento", "", "error");
+    }
+   }
+};
 </script>
 
 <style>
