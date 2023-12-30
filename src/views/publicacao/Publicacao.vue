@@ -25,9 +25,9 @@
       <div class="d-flex justify-content-center ">
         <div class="col-xs-12 col-md-6 ">
           <b-row  align-h="center">
-            <p v-for="paragrafo in json.paragrafos" class="ml-4 mr-4 mb-4">
-              {{ paragrafo }}
-            </p>
+            <div v-for="paragrafo in json.paragrafos" class="ml-4 mr-4 mb-4">
+              <p v-if="paragrafo.tipo=='texto'">{{ paragrafo.valor }} </p>
+            </div>
           </b-row>
         </div>
       </div>
