@@ -12,14 +12,15 @@
       </div>
     </div>
     <div v-else>
-      <p>{{ $route.params.numero }}</p>
-      <b-row  align-h="center">
-        <h1 class="post-title">{{ json.titulo }}</h1>
-      </b-row>
+      <div class="conteiner mb-5">
+        <img  :src="json.foto" />
+        <div class="text-block">
+          <h1 >{{ json.titulo }}</h1>
+        </div>
+      </div>
 
-      <b-row class="mb-3" align-h="center">
-        <img class="col-xs-12 col-md-6 m-2" :src="json.foto" />
-      </b-row>
+   
+
 
       <div class="d-flex justify-content-center ">
         <div class="col-xs-12 col-md-6 ">
@@ -67,9 +68,26 @@ export default {
 </script>
 
 <style scoped>
-img {
-  border-radius: 50%;
+.conteiner {
+  position: relative;
 }
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+    img {
+      width: 100%;
+      height: 500px; /* Defina a altura desejada */
+      object-fit: cover; /* Isso garante que a imagem cubra a área designada, mantendo as proporções */
+      display: block;
+    }
 p {
   text-indent: 50px;
   letter-spacing: 3px;
